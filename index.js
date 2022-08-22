@@ -11,6 +11,7 @@ var correctAns = num1 * num2;
 $("#correct").html(correctAns);
 
 function refreshData(){
+  $("#input").val("");
   let num1New = Math.ceil(Math.random() * 10);
   let num2New = Math.ceil(Math.random() * 10);
   $("#num1").html(num1New);
